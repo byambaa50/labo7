@@ -1,0 +1,6 @@
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+s = ((a*5.8)+(b*7.2)+(c*1.2))-(((a*5.8)+(b*7.2)+(c*1.2))/100*d)
+print("%.3f" % s)
